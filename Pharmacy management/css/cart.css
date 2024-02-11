@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@500&display=swap');
+*{
+    font-family: 'lato';
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-transform: none;
+    transition: all .2s linear;
+}
+html{
+  font-size: 62.5%;  
+  overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+.cartbody{
+  font-size: 2rem; 
+  margin-top: 2%;
+}

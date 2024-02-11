@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@500&display=swap');
+*{
+    font-family: 'lato';
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-transform: none;
+    transition: all .2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+span{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+.section-head{
+    margin-bottom: 50px;
+}
+.section-head h4{
+    position: relative;
+    padding: 0;
+    color: #19f9df;
+    line-height: 1;
+    letter-spacing: 0.3px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 30px;
+}
+.section-head h4::before{
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #19d7f9;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.section-head h4 span{
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: #2f2f2f;
+}
+.section-head p{
+    color: #2f2f2f;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+.item{
+    background: #fff;
+    text-align: center;
+    padding: 30px 25px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.07);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 5px solid rgba(0,0,0,0.07);
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.item:hover{
+    background: #19b2f9;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2);
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+}
+.item:hover .item,
+.item:hover i{
+    background: #fff;
+    border-radius: 10px;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+}
+.item:hover h6,
+.item:hover p{
+    color: #fff;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+}
+.item i{
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #2d315d;
+    width: 90px;
+    height: 90px;
+    line-height: 96px;
+    border-radius: 50px;
+}
+.item p{
+    font-size: 15px;
+    line-height: 26px;
+}
+.item h6{
+    margin-bottom: 20px;
+    color: #2f2f2f;
+}

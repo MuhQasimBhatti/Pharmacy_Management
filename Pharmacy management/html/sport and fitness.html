@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Pharmacy</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <style>
+      * {
+        font-family: "lato";
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        text-decoration: none;
+        border: none;
+        outline: none;
+        text-transform: none;
+        transition: all 0.2s linear;
+      }
+      html {
+        font-size: 62.5%;
+        overflow-x: hidden;
+        scroll-padding-top: 7rem;
+        scroll-behavior: smooth;
+      }
+      .section-head h4 {
+        position: relative;
+        padding: 0;
+        color: #19f9df;
+        line-height: 1;
+        letter-spacing: 0.3px;
+        font-size: 34px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: none;
+        margin-bottom: 30px;
+      }
+      .section-head h4::before {
+        content: "";
+        width: 60px;
+        height: 3px;
+        background: #19d7f9;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+      .section-head h4 span {
+        font-weight: 700;
+        padding-bottom: 5px;
+        color: #2f2f2f;
+      }
+    </style>
+  </head>
+  <body>
+    <! Header--->
+    <header class="headt">
+      <a href="#" class="logo">
+        <img src="../Images/image4.jpg" />
+      </a>
+      <! nav bar --->
+      <nav class="headbar">
+        <a href="home.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="sport and fitness.html">Sport and Fitness</a>
+        <a href="Personal care.html">Personal Care</a>
+        <a href="About.html">Services</a>
+        <a href="info.html">Contact Us</a>
+      </nav>
+      <! nav bar --->
+      <div class="menubtn">
+        <button>Helpline</button>
+      </div>
+    </header>
+    <! Header--->
+    <div class="container mt-5 ">
+      <div class="section-head col-sm-12">
+        <h4><span>Sports And </span>Fitness</h4>
+      </div>
+      <!-- Search Bar -->
+      <div class="input-group mt-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Search for products"
+        />
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="button">Search</button>
+        </div>
+      </div>
+
+      <!-- Product Cards -->
+      <div class="row mt-3">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="../Images/h2.jpg" class="card-img-top" alt="Product 1" />
+            <div class="card-body">
+              <h5 class="card-title">1. Exercise For pateints.</h5>
+              <p class="card-text">
+                Different type of machine exercise according to the
+                recommendation of the doctors.
+              </p>
+              <button class="btn btn-success btn-block">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="../Images/h3.jpg" class="card-img-top" alt="Product 2" />
+            <div class="card-body">
+              <h5 class="card-title">2. Weight lifting.</h5>
+              <p class="card-text">
+                It is important for the patient to keep balance between the
+                exercise and careful for the weight lifting.
+              </p>
+              <button class="btn btn-success btn-block">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="../Images/h4.webp" class="card-img-top" alt="Product 2" />
+            <div class="card-body">
+              <h5 class="card-title">3. Daily Walk.</h5>
+              <p class="card-text">
+                Taking a walk daily will regulate your blood circulation.
+              </p>
+              <button class="btn btn-success btn-block">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="../Images/h4.jpg" class="card-img-top" alt="Product 2" />
+            <div class="card-body">
+              <h5 class="card-title">4. In-bed Cycling.</h5>
+              <p class="card-text">
+                It is beneficial for the ICU patients for faster recovery
+                ,Especially for pateints suffering from physical illness It
+                helps them to regulate their metabolism also.
+              </p>
+              <button class="btn btn-success btn-block">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="../Images/t3.webp" class="card-img-top" alt="Product 2" />
+            <div class="card-body">
+              <h5 class="card-title">5. Nutritious Diet.</h5>
+              <p class="card-text">
+                Obtaining a healthy diet can lead a better life and helps to
+                prevent an irregular disorder.
+              </p>
+              <button class="btn btn-success btn-block">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="../Images/h6.jpg" class="card-img-top" alt="Product 2" />
+            <div class="card-body">
+              <h5 class="card-title">6. Yoga.</h5>
+              <p class="card-text">
+                Another way to achieve a healthy life by following to the
+                docotrs prescription.
+              </p>
+              <button class="btn btn-success btn-block">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more product cards as needed -->
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

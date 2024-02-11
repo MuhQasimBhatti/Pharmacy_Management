@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@500&display=swap');
+*{
+    font-family: 'lato';
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-transform: none;
+    transition: all .2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 60%;
+    padding: 45px;
+    border-radius: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.row{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.col-md-7{
+    padding: 20px;
+}
+.col-md-5{
+    background: #1089ff;
+    padding: 20px;
+    color: white;
+}
+.form-control{
+    height: 52px;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    border-radius: 20px;
+    box-sizing: none! important;
+    border: 1px solid rgba(0,0,0.1);
+
+}
+.bi{
+    font-size: 20px;
+}
+.d-flex p{
+    font-size: 18px;
+    padding-left: 18px;
+    font-family: 'lato';
+}
+.section-head h4{
+    position: relative;
+    padding: 0;
+    color: #19f9df;
+    line-height: 1;
+    letter-spacing: 0.3px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 30px;
+}
+.section-head h4::before{
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #19d7f9;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.section-head h4 span{
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: #2f2f2f;
+}
+
+@media only screen and(max-width:600px){
+    .container{
+        width: 100%;
+        position: absolute;  
+        left: 50%;
+        top: 80%; 
+     }
+}

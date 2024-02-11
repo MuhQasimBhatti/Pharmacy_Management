@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@500&display=swap');
+:root{
+    --black: black;
+    --purple: purple;
+    --light-color:#666;
+    --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0,0.1);
+}
+*{
+    font-family: 'lato';
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-transform: none;
+    transition: all .2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+body{
+    background: #fff;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    padding: 0 5%;
+}
+.main .left{
+    padding-top: 15px ;
+    text-align: center;
+    line-height: 1.6;
+}
+.main .left h2{
+    padding-top: 15%;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: var(--light-color);
+    margin-top: 100px;
+}
+.main .left h1{
+    font-size: 42px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 15px 0;
+}
+.main .left p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: var(--light-color);
+}
+.main .left button{
+    padding-top: 12px;
+    padding: 15px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid;
+    box-shadow: var(--box-shadow);
+    background-image:linear-gradient(to right,#64acff,#0070fa,#64c4ff);
+    border-radius: 10px;
+}
+.main .right img{
+    padding-top: 25%;
+    width: 700px;
+    height: 88%;
+    display: flex;
+    margin-left: 0;
+
+}
